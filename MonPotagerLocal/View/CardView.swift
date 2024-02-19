@@ -15,8 +15,12 @@ struct CardView: View {
         NavigationView {
             ScrollView {
                 if basketManager.products.count > 0 {
-                    ForEach(basketManager.products, id: \.id) { product in
-                        ProductRow(product: product)
+                    let idProduct = Dictionary(grouping: basketManager.products) { $0.id }
+                    
+                    ForEach(idProduct.keys.sorted(), id: \.self) { key in
+                        if let product = idProduct[key]?.first {
+                            ProductRow(product: product, quantity: idProduct[key]?.count ?? 0)
+                        }
                     }
                     
                     HStack {
@@ -30,7 +34,7 @@ struct CardView: View {
                     Text("Votre panier est vide")
                 }
             }
-            .padding(.top)
+            .navigationTitle("Panier")
         }
     }
 }

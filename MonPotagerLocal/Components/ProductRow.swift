@@ -10,7 +10,9 @@ import SwiftUI
 struct ProductRow: View {
     
     @EnvironmentObject var basketManager: BasketManager
+    
     var product: Product
+    var quantity: Int
     
     var body: some View {
         HStack {
@@ -35,6 +37,10 @@ struct ProductRow: View {
                     basketManager.removeFromBasket(product: product)
                 }
             
+            if quantity > 1 {
+                Text("x\(quantity)")
+            }
+            
         }
         .padding(.horizontal)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -44,6 +50,6 @@ struct ProductRow: View {
 
 
 #Preview {
-    ProductRow(product: productList[2])
+    ProductRow(product: productList[2], quantity: 2)
         .environmentObject(BasketManager())
 }

@@ -60,12 +60,3 @@ struct MapViewTest: UIViewRepresentable {
         }
     }
 }
-
-
-//let selectedAnnotation = place.filter { $0.lat == view.coordinate.latitude && $0.long == view.coordinate.longitude }
-//let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//guard let sheetPresentationController = storyboard.instantiateViewController(withIdentifier: "DetailPlaceViewController") as? DetailPlaceViewController else { return }
-//sheetPresentationController.place = selectedAnnotation
-//let navPlacesController = UINavigationController(rootViewController: sheetPresentationController)
-//setupUINavigationBar(navController: navPlacesController)
-//self.present(navPlacesController, animated: true, completion: nil)
