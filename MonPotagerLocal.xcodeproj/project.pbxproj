@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB005D682B73ECC400D71BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D672B73ECC400D71BD3 /* ContentView.swift */; };
+		FB005D6A2B73ECC600D71BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB005D692B73ECC600D71BD3 /* Assets.xcassets */; };
+		FB005D6D2B73ECC600D71BD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB005D6C2B73ECC600D71BD3 /* Preview Assets.xcassets */; };
+		FB005D772B73ECC700D71BD3 /* MonPotagerLocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D762B73ECC700D71BD3 /* MonPotagerLocalTests.swift */; };
+		FB005D812B73ECC700D71BD3 /* MonPotagerLocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D802B73ECC700D71BD3 /* MonPotagerLocalUITests.swift */; };
+		FB005D832B73ECC700D71BD3 /* MonPotagerLocalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D822B73ECC700D71BD3 /* MonPotagerLocalUITestsLaunchTests.swift */; };
+		FB005D902B74228D00D71BD3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D8F2B74228D00D71BD3 /* MapView.swift */; };
+		FB005D962B742BEB00D71BD3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D952B742BEB00D71BD3 /* CustomTabBar.swift */; };
+		FB005D982B74DD0400D71BD3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D972B74DD0400D71BD3 /* HomeView.swift */; };
+		FB005D9B2B75116900D71BD3 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D9A2B75116900D71BD3 /* AccountView.swift */; };
+		FB005D9D2B75120D00D71BD3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005D9C2B75120D00D71BD3 /* SettingsView.swift */; };
+		FB005DA12B75922300D71BD3 /* ProductBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005DA02B75922300D71BD3 /* ProductBasket.swift */; };
+		FB005DA32B75A0A500D71BD3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB005DA22B75A0A500D71BD3 /* Product.swift */; };
+		FB3F90E72B83699000C283EA /* MonPotagerLocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3F90E62B83699000C283EA /* MonPotagerLocalApp.swift */; };
+		FBB8EA9D2B811FD90075A291 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8EA9C2B811FD90075A291 /* BasketView.swift */; };
+		FBB8EAA12B816FEF0075A291 /* BasketButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8EAA02B816FEF0075A291 /* BasketButton.swift */; };
+		FBB8EAA32B8174E20075A291 /* BasketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8EAA22B8174E20075A291 /* BasketManager.swift */; };
+		FBB8EAA62B8177380075A291 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8EAA52B8177380075A291 /* CardView.swift */; };
+		FBB8EAA82B82B3640075A291 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8EAA72B82B3640075A291 /* ProductRow.swift */; };
+		FBCE5AC92B7CF5FF00C7C021 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = FBCE5AC82B7CF5FF00C7C021 /* GooglePlaces */; };
+		FBCE5ACB2B7CF89F00C7C021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE5ACA2B7CF89F00C7C021 /* AppDelegate.swift */; };
+		FBF33C582B7A2C1700FCF84F /* DetailPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33C572B7A2C1700FCF84F /* DetailPlaceView.swift */; };
+		FBFF84AF2B7653CD005D14E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF84AE2B7653CD005D14E0 /* SearchBar.swift */; };
+		FBFF84B12B7654E6005D14E0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF84B02B7654E6005D14E0 /* Place.swift */; };
+		FBFF84B52B7664FA005D14E0 /* MapViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF84B42B7664FA005D14E0 /* MapViewTest.swift */; };
+		FBFF84B72B7665DF005D14E0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF84B62B7665DF005D14E0 /* MapViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB005D732B73ECC700D71BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB005D5A2B73ECC400D71BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB005D612B73ECC400D71BD3;
+			remoteInfo = MonPotagerLocal;
+		};
+		FB005D7D2B73ECC700D71BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB005D5A2B73ECC400D71BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB005D612B73ECC400D71BD3;
+			remoteInfo = MonPotagerLocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB005D622B73ECC400D71BD3 /* MonPotagerLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonPotagerLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB005D672B73ECC400D71BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB005D692B73ECC600D71BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB005D6C2B73ECC600D71BD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB005D722B73ECC700D71BD3 /* MonPotagerLocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonPotagerLocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB005D762B73ECC700D71BD3 /* MonPotagerLocalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonPotagerLocalTests.swift; sourceTree = "<group>"; };
+		FB005D7C2B73ECC700D71BD3 /* MonPotagerLocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonPotagerLocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB005D802B73ECC700D71BD3 /* MonPotagerLocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonPotagerLocalUITests.swift; sourceTree = "<group>"; };
+		FB005D822B73ECC700D71BD3 /* MonPotagerLocalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonPotagerLocalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB005D8F2B74228D00D71BD3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB005D952B742BEB00D71BD3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FB005D972B74DD0400D71BD3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB005D9A2B75116900D71BD3 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FB005D9C2B75120D00D71BD3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FB005DA02B75922300D71BD3 /* ProductBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBasket.swift; sourceTree = "<group>"; };
+		FB005DA22B75A0A500D71BD3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FB3F90E62B83699000C283EA /* MonPotagerLocalApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonPotagerLocalApp.swift; sourceTree = "<group>"; };
+		FBB8EA9C2B811FD90075A291 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		FBB8EAA02B816FEF0075A291 /* BasketButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketButton.swift; sourceTree = "<group>"; };
+		FBB8EAA22B8174E20075A291 /* BasketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketManager.swift; sourceTree = "<group>"; };
+		FBB8EAA52B8177380075A291 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FBB8EAA72B82B3640075A291 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		FBCE5ACA2B7CF89F00C7C021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF33C572B7A2C1700FCF84F /* DetailPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceView.swift; sourceTree = "<group>"; };
+		FBFF84AE2B7653CD005D14E0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FBFF84B02B7654E6005D14E0 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FBFF84B42B7664FA005D14E0 /* MapViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTest.swift; sourceTree = "<group>"; };
+		FBFF84B62B7665DF005D14E0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB005D5F2B73ECC400D71BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCE5AC92B7CF5FF00C7C021 /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D6F2B73ECC700D71BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D792B73ECC700D71BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB005D592B73ECC400D71BD3 = {
+			isa = PBXGroup;
+			children = (
+				FB005D642B73ECC400D71BD3 /* MonPotagerLocal */,
+				FB005D752B73ECC700D71BD3 /* MonPotagerLocalTests */,
+				FB005D7F2B73ECC700D71BD3 /* MonPotagerLocalUITests */,
+				FB005D632B73ECC400D71BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB005D632B73ECC400D71BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D622B73ECC400D71BD3 /* MonPotagerLocal.app */,
+				FB005D722B73ECC700D71BD3 /* MonPotagerLocalTests.xctest */,
+				FB005D7C2B73ECC700D71BD3 /* MonPotagerLocalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB005D642B73ECC400D71BD3 /* MonPotagerLocal */ = {
+			isa = PBXGroup;
+			children = (
+				FB3F90E62B83699000C283EA /* MonPotagerLocalApp.swift */,
+				FB005D672B73ECC400D71BD3 /* ContentView.swift */,
+				FBB8EAA42B8175270075A291 /* Model */,
+				FBCE5ACA2B7CF89F00C7C021 /* AppDelegate.swift */,
+				FBFF84B62B7665DF005D14E0 /* MapViewModel.swift */,
+				FBB8EAA22B8174E20075A291 /* BasketManager.swift */,
+				FBFF84B42B7664FA005D14E0 /* MapViewTest.swift */,
+				FBB8EA9B2B811FB30075A291 /* Components */,
+				FB005D992B75115000D71BD3 /* View */,
+				FB005D692B73ECC600D71BD3 /* Assets.xcassets */,
+				FB005D6B2B73ECC600D71BD3 /* Preview Content */,
+			);
+			path = MonPotagerLocal;
+			sourceTree = "<group>";
+		};
+		FB005D6B2B73ECC600D71BD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D6C2B73ECC600D71BD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB005D752B73ECC700D71BD3 /* MonPotagerLocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D762B73ECC700D71BD3 /* MonPotagerLocalTests.swift */,
+			);
+			path = MonPotagerLocalTests;
+			sourceTree = "<group>";
+		};
+		FB005D7F2B73ECC700D71BD3 /* MonPotagerLocalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D802B73ECC700D71BD3 /* MonPotagerLocalUITests.swift */,
+				FB005D822B73ECC700D71BD3 /* MonPotagerLocalUITestsLaunchTests.swift */,
+			);
+			path = MonPotagerLocalUITests;
+			sourceTree = "<group>";
+		};
+		FB005D992B75115000D71BD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D972B74DD0400D71BD3 /* HomeView.swift */,
+				FB005D8F2B74228D00D71BD3 /* MapView.swift */,
+				FBB8EA9C2B811FD90075A291 /* BasketView.swift */,
+				FBB8EAA52B8177380075A291 /* CardView.swift */,
+				FBF33C572B7A2C1700FCF84F /* DetailPlaceView.swift */,
+				FB005D9A2B75116900D71BD3 /* AccountView.swift */,
+				FB005D9C2B75120D00D71BD3 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBB8EA9B2B811FB30075A291 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FB005D952B742BEB00D71BD3 /* CustomTabBar.swift */,
+				FBFF84AE2B7653CD005D14E0 /* SearchBar.swift */,
+				FBB8EAA72B82B3640075A291 /* ProductRow.swift */,
+				FB005DA02B75922300D71BD3 /* ProductBasket.swift */,
+				FBB8EAA02B816FEF0075A291 /* BasketButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FBB8EAA42B8175270075A291 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBFF84B02B7654E6005D14E0 /* Place.swift */,
+				FB005DA22B75A0A500D71BD3 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB005D612B73ECC400D71BD3 /* MonPotagerLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB005D862B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocal" */;
+			buildPhases = (
+				FB005D5E2B73ECC400D71BD3 /* Sources */,
+				FB005D5F2B73ECC400D71BD3 /* Frameworks */,
+				FB005D602B73ECC400D71BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonPotagerLocal;
+			packageProductDependencies = (
+				FBCE5AC82B7CF5FF00C7C021 /* GooglePlaces */,
+			);
+			productName = MonPotagerLocal;
+			productReference = FB005D622B73ECC400D71BD3 /* MonPotagerLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB005D712B73ECC700D71BD3 /* MonPotagerLocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB005D892B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocalTests" */;
+			buildPhases = (
+				FB005D6E2B73ECC700D71BD3 /* Sources */,
+				FB005D6F2B73ECC700D71BD3 /* Frameworks */,
+				FB005D702B73ECC700D71BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB005D742B73ECC700D71BD3 /* PBXTargetDependency */,
+			);
+			name = MonPotagerLocalTests;
+			productName = MonPotagerLocalTests;
+			productReference = FB005D722B73ECC700D71BD3 /* MonPotagerLocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB005D7B2B73ECC700D71BD3 /* MonPotagerLocalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB005D8C2B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocalUITests" */;
+			buildPhases = (
+				FB005D782B73ECC700D71BD3 /* Sources */,
+				FB005D792B73ECC700D71BD3 /* Frameworks */,
+				FB005D7A2B73ECC700D71BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB005D7E2B73ECC700D71BD3 /* PBXTargetDependency */,
+			);
+			name = MonPotagerLocalUITests;
+			productName = MonPotagerLocalUITests;
+			productReference = FB005D7C2B73ECC700D71BD3 /* MonPotagerLocalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB005D5A2B73ECC400D71BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FB005D612B73ECC400D71BD3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FB005D712B73ECC700D71BD3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FB005D612B73ECC400D71BD3;
+					};
+					FB005D7B2B73ECC700D71BD3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FB005D612B73ECC400D71BD3;
+					};
+				};
+			};
+			buildConfigurationList = FB005D5D2B73ECC400D71BD3 /* Build configuration list for PBXProject "MonPotagerLocal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB005D592B73ECC400D71BD3;
+			packageReferences = (
+				FBCE5AC72B7CF5FF00C7C021 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = FB005D632B73ECC400D71BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB005D612B73ECC400D71BD3 /* MonPotagerLocal */,
+				FB005D712B73ECC700D71BD3 /* MonPotagerLocalTests */,
+				FB005D7B2B73ECC700D71BD3 /* MonPotagerLocalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB005D602B73ECC400D71BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB005D6D2B73ECC600D71BD3 /* Preview Assets.xcassets in Resources */,
+				FB005D6A2B73ECC600D71BD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D702B73ECC700D71BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D7A2B73ECC700D71BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB005D5E2B73ECC400D71BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB8EA9D2B811FD90075A291 /* BasketView.swift in Sources */,
+				FBB8EAA32B8174E20075A291 /* BasketManager.swift in Sources */,
+				FB005D9D2B75120D00D71BD3 /* SettingsView.swift in Sources */,
+				FB005DA32B75A0A500D71BD3 /* Product.swift in Sources */,
+				FB005D9B2B75116900D71BD3 /* AccountView.swift in Sources */,
+				FBFF84B52B7664FA005D14E0 /* MapViewTest.swift in Sources */,
+				FB005D682B73ECC400D71BD3 /* ContentView.swift in Sources */,
+				FBB8EAA62B8177380075A291 /* CardView.swift in Sources */,
+				FBB8EAA12B816FEF0075A291 /* BasketButton.swift in Sources */,
+				FB005D962B742BEB00D71BD3 /* CustomTabBar.swift in Sources */,
+				FB005D902B74228D00D71BD3 /* MapView.swift in Sources */,
+				FB005D982B74DD0400D71BD3 /* HomeView.swift in Sources */,
+				FBB8EAA82B82B3640075A291 /* ProductRow.swift in Sources */,
+				FBFF84B12B7654E6005D14E0 /* Place.swift in Sources */,
+				FBF33C582B7A2C1700FCF84F /* DetailPlaceView.swift in Sources */,
+				FBFF84AF2B7653CD005D14E0 /* SearchBar.swift in Sources */,
+				FBFF84B72B7665DF005D14E0 /* MapViewModel.swift in Sources */,
+				FB005DA12B75922300D71BD3 /* ProductBasket.swift in Sources */,
+				FB3F90E72B83699000C283EA /* MonPotagerLocalApp.swift in Sources */,
+				FBCE5ACB2B7CF89F00C7C021 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D6E2B73ECC700D71BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB005D772B73ECC700D71BD3 /* MonPotagerLocalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB005D782B73ECC700D71BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB005D832B73ECC700D71BD3 /* MonPotagerLocalUITestsLaunchTests.swift in Sources */,
+				FB005D812B73ECC700D71BD3 /* MonPotagerLocalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB005D742B73ECC700D71BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB005D612B73ECC400D71BD3 /* MonPotagerLocal */;
+			targetProxy = FB005D732B73ECC700D71BD3 /* PBXContainerItemProxy */;
+		};
+		FB005D7E2B73ECC700D71BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB005D612B73ECC400D71BD3 /* MonPotagerLocal */;
+			targetProxy = FB005D7D2B73ECC700D71BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB005D842B73ECC700D71BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB005D852B73ECC700D71BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB005D872B73ECC700D71BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonPotagerLocal/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Votre position actuelle sera affichée sur la carte et sera utilisée pour vous fournir un itinéraire vers un lieu sélectionné.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Votre position actuelle sera affichée sur la carte et sera utilisée pour vous fournir un itinéraire vers un lieu sélectionné.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB005D882B73ECC700D71BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonPotagerLocal/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Votre position actuelle sera affichée sur la carte et sera utilisée pour vous fournir un itinéraire vers un lieu sélectionné.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Votre position actuelle sera affichée sur la carte et sera utilisée pour vous fournir un itinéraire vers un lieu sélectionné.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB005D8A2B73ECC700D71BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonPotagerLocal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonPotagerLocal";
+			};
+			name = Debug;
+		};
+		FB005D8B2B73ECC700D71BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonPotagerLocal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonPotagerLocal";
+			};
+			name = Release;
+		};
+		FB005D8D2B73ECC700D71BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonPotagerLocal;
+			};
+			name = Debug;
+		};
+		FB005D8E2B73ECC700D71BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZV67K9B93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.charpentier.MonPotagerLocalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonPotagerLocal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB005D5D2B73ECC400D71BD3 /* Build configuration list for PBXProject "MonPotagerLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB005D842B73ECC700D71BD3 /* Debug */,
+				FB005D852B73ECC700D71BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB005D862B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB005D872B73ECC700D71BD3 /* Debug */,
+				FB005D882B73ECC700D71BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB005D892B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB005D8A2B73ECC700D71BD3 /* Debug */,
+				FB005D8B2B73ECC700D71BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB005D8C2B73ECC700D71BD3 /* Build configuration list for PBXNativeTarget "MonPotagerLocalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB005D8D2B73ECC700D71BD3 /* Debug */,
+				FB005D8E2B73ECC700D71BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBCE5AC72B7CF5FF00C7C021 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBCE5AC82B7CF5FF00C7C021 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBCE5AC72B7CF5FF00C7C021 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FB005D5A2B73ECC400D71BD3 /* Project object */;
+}
